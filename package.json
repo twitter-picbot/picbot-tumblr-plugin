@@ -1,0 +1,7 @@
+{
+  "name": "picbot-tumblr-plugin",
+  "version": "1.0.0",
+  "dependencies": {
+    "tumblr.js": "0.0.7"
+  }
+}
