@@ -35,8 +35,8 @@ module.exports = {
             source = utils.getRandom(imagePosts);
 
           resolve({
-            url: source.short_url,
-            source: source.photos[0].original_size.url
+            url: source.photos[0].original_size.url,
+            source: source.short_url
           });
         }
       });
